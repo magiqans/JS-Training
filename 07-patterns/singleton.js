@@ -62,25 +62,17 @@ var myBadSingleton = (function () {
         var privateRandomNumber = Math.random();
 
         return {
-
             getRandomNumber: function () {
                 return privateRandomNumber;
             }
-
         };
-
     };
-
     return {
-
         // Always create a new Singleton instance
         getInstance: function () {
-
             instance = init();
-
             return instance;
         }
-
     };
 
 })();

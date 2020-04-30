@@ -13,5 +13,8 @@ function loggerDecorator(fn) {
     return fn;
 }
 
+// const smth = dosmth();
+// console.log(smth);
+
 const decorated = loggerDecorator(dosmth);
 decorated();
